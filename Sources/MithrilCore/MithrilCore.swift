@@ -1,4 +1,4 @@
-import DataServices
+import MithrilCoreDataServices
 
 public struct MithrilCore {
     public private(set) var text = "Hello, World!"
