@@ -22,8 +22,7 @@ let package = Package(
             dependencies: ["MithrilCoreDataServices"]),
         .target(
             name: "MithrilCoreDataServices",
-            dependencies: [],
-            path: "Sources/DataServices"),
+            dependencies: []),
         .testTarget(
             name: "MithrilCoreTests",
             dependencies: ["MithrilCore"]),
